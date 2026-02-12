@@ -1,8 +1,6 @@
 # 🚁 CATALAV
 **Cooperative Air Traffic Automation for Low-Altitude Vehicles**
 
-You want:
-
 > A **real-time cooperative collision-avoidance network** for flying vehicles where every vehicle shares state and receives coordinated movement instructions so crashes are mathematically prevented.
 
 This is called:
@@ -29,7 +27,6 @@ Each vehicle must continuously transmit:
 
 Update rate: 10–50 times per second.
 
----
 
 ## 2️⃣ Local Sensing Layer (Onboard)
 
@@ -43,7 +40,6 @@ Even with networking, each car must have onboard sensors:
 
 Because network loss must **not = crash**.
 
----
 
 ## 3️⃣ Prediction Engine (Your Algorithm Core)
 
@@ -71,7 +67,6 @@ Mathematically:
 * constraint optimisation
 * model predictive control (MPC)
 
----
 
 ## 4️⃣ Coordination Protocol
 
@@ -97,7 +92,6 @@ This becomes a **distributed consensus problem** like:
 * air-traffic control logic
 * swarm robotics
 
----
 
 ## 5️⃣ Regulatory Layer
 
@@ -110,8 +104,6 @@ Flying vehicles require:
 
 Without this — no public adoption.
 
----
-
 ## “Safety Network as a Service”
 
 Examples that already exist:
@@ -120,9 +112,6 @@ Examples that already exist:
 * air traffic control networks
 * Tesla connectivity subscriptions
 * satellite navigation correction services
-
-
----
 
 # ⚠️ Hard Reality Check
 
@@ -159,8 +148,6 @@ Build system for:
 
 Much more achievable.
 
----
-
 ## Phase 2 — Simulation Platform
 
 Create:
@@ -180,8 +167,6 @@ Tools:
 * Unity physics
 * PX4 autopilot
 
----
-
 
 # 🧭 Key Insight
 
@@ -191,7 +176,3 @@ I'm trying to build:
 
 > **The Airspace Operating System**
 
-
-
-
-Just tell me how technical you want to go.
